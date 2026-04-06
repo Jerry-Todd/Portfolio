@@ -80,9 +80,7 @@ section {
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     width: 24rem;
-    height: 24rem;
     overflow: hidden;
     text-align: center;
     border-radius: 1rem;
