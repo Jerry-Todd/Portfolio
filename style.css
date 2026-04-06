@@ -12,6 +12,9 @@ nav {
     background-color: #C4B2BC;
     width: 100%;
     height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 nav p {
@@ -20,6 +23,17 @@ nav p {
     line-height: 4rem;
     font-size: 2rem;
     font-weight: bold;
+}
+
+#nav-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
+#nav-buttons img {
+    width: 2rem;
+    cursor: pointer;
 }
 
 main {
@@ -79,4 +93,19 @@ section {
 
 .card img {
     width: 100%;
+    border-radius: 1rem;
+    border-style: solid;
+    border-color: #C4B2BC;
+}
+
+#resume {
+    background-color: #226CE0;
+    border-style: none;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    color: white;
+    width: fit-content;
+    cursor: pointer;
+    text-decoration: none;
 }
