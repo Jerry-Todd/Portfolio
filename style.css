@@ -148,9 +148,8 @@ section {
     min-height: 20rem;
     padding: 2rem 4rem 8rem;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 0;
+    justify-content: center;
+    gap: 2rem;
     flex-wrap: wrap;
     height: fit-content;
     overflow: visible;
@@ -176,19 +175,29 @@ section {
     transition: transform 0.2s ease, border-color 0.2s ease;
 }
 
+.card > a {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
 .card h2 {
     color: var(--text);
-    margin: 0;
-    margin-bottom: 0.25rem;
+    margin: 0 0 0.25rem;
+}
+
+.card h3 {
+    margin: 0.25rem 0 0.75rem;
+    line-height: 1.4;
 }
 
 .card p {
-    margin-top: 0;
+    margin: 0;
 }
 
 .card img {
     margin: auto;
-    width: 60%;
+    width: 80%;
     border-radius: 1rem;
     border: 1px solid var(--border);
 }
