@@ -38,4 +38,4 @@ An interactive website for browsing and learning about different dog breeds. [Vi
 
 ---
 
-*Last updated: April 2026*
+*Last updated: August 2026*
