@@ -161,7 +161,7 @@ section {
     top: 8rem;
     display: flex;
     flex-direction: column;
-    width: min(100%, 42rem);
+    width: min(100%, 32rem);
     margin: 0 auto;
     min-height: 5rem;
     overflow: hidden;
