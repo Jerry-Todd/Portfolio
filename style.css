@@ -254,6 +254,7 @@ section h2 {
 
 .card img {
     margin: auto;
+    margin-top: 1rem;
     width: 80%;
     border-radius: 1rem;
     border: 1px solid var(--border);
